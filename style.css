@@ -47,7 +47,7 @@ nav img{
     background: #f44336;
     display: block;
     margin: auto;
-    transition: 0.2s;
+    transition: 0.5s;
     
 }
 
@@ -124,7 +124,7 @@ nav .fa-solid{
         right: -200px;
         text-align: left;
         z-index: 2;
-        transition: 2s;
+        transition: 0.2s;
         
     }
     nav .fa-sharp{
