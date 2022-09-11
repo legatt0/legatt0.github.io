@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport", content="with-device-width, initial-scale=1.0">
+    <title> Chaztea website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/871d34f9dd.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+    
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png">
+            </a>
+                <div class="nav-links" id="navLinks">
+                   <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTENT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+         
+<div class="text-box">
+         <h1> World's Most Delicious Milk tea</h1>
+    <p> Bringing the  most authentic and traditional taste of milk tea around the world. <br>Your satisfaction is our ambition </p>
+    
+    <a href="" class="hero-btn"> Visit Us to know More</a>
+         </div>
+    </section>
+        
+-------------Java-------------------------------        
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+                navLinks.style.right = "0";
+        }
+        function hideMenu(){
+                navLinks.style.right = "-200px";
+        }
+        
+    </script>
+</body>
+</html>
